@@ -78,7 +78,7 @@ func LatihanArray(){
 		for i := range matrix {
 			matrix[i] = make([]int, y)
 			for i2 := range matrix[i]{
-				fmt.Print("Masukkan nilai")
+				fmt.Printf("Masukkan data ke [%d][%d]", i,i2)
 				fmt.Scanln(&matrix[i][i2])
 			}
 		}
